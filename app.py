@@ -4,7 +4,6 @@ import os
 import random
 import argparse
 
-
 app = Flask(__name__)
 
 DBHOST = os.environ.get("DBHOST") or "localhost"
